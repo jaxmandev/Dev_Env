@@ -23,7 +23,7 @@ faster
 more secure
 lighter
 ```
-### Main Commands
+## Main Commands
 
 #### General Commands
 ```
@@ -70,7 +70,7 @@ sudo is used to give administrative rights and apt-get is the package installati
 - NGINX is a high performance load balancer used to deliver content to the web. We download this in our virtual machine using the command `sudo apt-get install nginx'
 ```
 - We then add the following line to our vagrantfile to configure a private network. config.vm.network "private_network",ip:"192.168.10.2"
-Using an ip address is not convenient nor standard practice. We typically access using a domain name. 
+- Using an ip address is not convenient nor standard practice. We typically access using a domain name. 
 - We can alias a domain name by using the following command inside our terminal, ensuring we have logged out of the virtual machine. vagrant plugin install vagrant-hostsupdater
 - We then alias a domain name as demonstrated below: config.vm.hostname = "www.testing.de"
 ```
